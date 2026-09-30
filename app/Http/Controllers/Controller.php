@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
-abstract class Controller
+class DashboardController extends Controller
 {
-    //
+    public function overview()
+    {
+        return view('pages.overview');
+    }
 }
+
